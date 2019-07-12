@@ -1,4 +1,4 @@
-function Cat {
+function Cat() {
 	this.stomach = [];
 }
 

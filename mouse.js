@@ -13,4 +13,8 @@ Mouse.prototype.sayHi = function() {
 	console.log('I am a mouse, my name is ' + chalk.red(this.name));
 };
 
+Mouse.prototype.eat = function() {
+	console.log('Eating rice...');
+};
+
 module.exports = Mouse;

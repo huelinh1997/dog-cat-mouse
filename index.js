@@ -9,3 +9,12 @@ var mouse = new myMouse('Jerry');
 // console.log(dog);
 cat.sayHi();
 mouse.sayHi();
+// cat.eat(mouse);
+try {
+	cat.eat(dog);
+}
+catch(error) {
+	console.log('Error while cat eating a dog');
+}
+
+console.log(cat);

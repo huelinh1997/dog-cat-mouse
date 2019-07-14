@@ -17,4 +17,8 @@ Mouse.prototype.eat = function() {
 	console.log('Eating rice...');
 };
 
+Mouse.prototype.run = function() {
+	console.log('Running...');
+};
+
 module.exports = Mouse;
